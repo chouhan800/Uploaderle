@@ -66,7 +66,7 @@ photozip = 'https://tinypic.host/images/2025/07/26/chouhan.jpg'
 BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url="https://t.me/KINGSTONJK7")]])
 keyboard = InlineKeyboardMarkup(
     [
-        [InlineKeyboardButton(text="🛠️ Help", url="https://t.me/KINGSTONJK7"), InlineKeyboardButton(text="🛠️ Repo", url="https://t.me/KINGSTONJK7")],
+        [InlineKeyboardButton(text="🛠️ Help", url="tg://openmessage?user_id=8050673236"), InlineKeyboardButton(text="🛠️ Repo", url="tg://openmessage?user_id=8050673236")],
     ]
 )
 
