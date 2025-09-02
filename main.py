@@ -61,6 +61,10 @@ photoyt = 'https://tinypic.host/images/2025/08/14/2generated-image.png' #https:/
 photocp = 'https://tinypic.host/images/2025/08/14/2generated-image.png'
 photozip = 'https://tinypic.host/images/2025/08/14/2generated-image.png'
 
+async def show_random_emojis(message):
+    emojis = ['🐼', '🐶', '🐅', '⚡️', '🚀', '✨', '💥', '☠️', '🥂', '🍾', '📬', '👻', '👀', '🌹', '💀', '🐇', '⏳', '🔮', '🦔', '📖', '🦁', '🐱', '🐻‍❄️', '☁️', '🚹', '🚺', '🐠', '🦋']
+    emoji_message = await message.reply_text(' '.join(random.choices(emojis, k=1)))
+    return emoji_message
 
 # Inline keyboard for start command
 BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url="https://t.me/+4f0b6qcoP6UyZDNl")]])
